@@ -1,4 +1,4 @@
-# What is a Minimum Viable Data Space? 
+# The IDS Base Camp
 A minimum viable data space (MVDS) is a combination of components to initiate a data space with just enough features to be usable for secure and sovereign data exchange, as specified by IDSA. 
 It aims to facilitate the work of experimenters by shortening the implementation time (by avoiding lengthy details that would slow down the first release). 
 This allows them to start with a first working version (where secure and sovereign data exchange is granted), where the development team can iterate, identify and respond to the assumptions about the requirements of the data space. 

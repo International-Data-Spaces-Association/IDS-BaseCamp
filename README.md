@@ -11,9 +11,10 @@ The Base Camp can be used to serve as a starting point to implement a custom dat
 
 Developer documentation can be found under [docs/developer](docs/developer/), where the main concepts and decisions are captured as [decision records](docs/developer/decision-records/).
 
-> **Warning**
-> What are the appropriate Variables for the Base Camp Code? Are they the same as the MVD, if not how similar?
 ## Create Dataspace Deployment
+
+> **Warning**
+> This needs the appropriate Code for the Base Camp
 
 To be able to deploy your own dataspace instances, you first need to [fork the Base Camp repository and set up your environment](docs/developer/continuous-deployment/continuous_deployment.md).
 
@@ -40,6 +41,9 @@ Follow these steps to delete a dataspace instance and free up the corresponding 
 
 ## Local Development Setup
 
+> **Warning**
+> This needs the appropriate Code for the Base Camp
+
 The Base Camp backend and Base Camp UI (Data Dashboard) can be run locally for testing and development.
 
 1. Check out the
@@ -53,6 +57,9 @@ The Base Camp backend and Base Camp UI (Data Dashboard) can be run locally for t
 
 > Using the profile `ui` will create three MVD UIs (Data Dashboards) for each EDC participant in addition to the
 > services described in [system-tests/README.md](system-tests/README.md).
+
+> **Warning**
+> This needs the appropriate Code for the Base Camp
 
 Bash:
 
@@ -131,6 +138,9 @@ Prerequisite: create a test document manually:
 
 All this can also be done using Azure CLI with the following lines from the root of the MVD repository:
 
+> **Warning**
+> This needs the appropriate Code for the Base Camp
+
 Bash:
 
 ```bash
@@ -181,4 +191,4 @@ The following steps initiate and complete a file transfer with the provided test
 
 ## Contributing
 
-See [how to contribute](https://github.com/eclipse-dataspaceconnector/DataSpaceConnector/blob/main/CONTRIBUTING.md).
+See [how to contribute](https://github.com/International-Data-Spaces-Association/IDS-BaseCamp/blob/main/CONTRIBUTING.md).

@@ -20,7 +20,7 @@ The Base Camp consists of:
 
 [Certification](https://internationaldataspaces.org/use/certification/) of all components and the operational environments is an additional trust layer, since it ensures the functionality of components work in clearly specified boundaries.
 
-# How can I start experimenting with Dataspace? 
+# How can I start experimenting with a Dataspace? 
 To start with implementing a Dataspace, you can check the list of IDS-compliant components that are listed [on this page](https://github.com/International-Data-Spaces-Association/idsa/blob/main/how-to-build-data-spaces/3-Build-Components.md), which is part of the
 [How to Build Data Spaces?](https://github.com/International-Data-Spaces-Association/idsa/tree/main/how-to-build-data-spaces) section, that explains the process of building data spaces in five steps.
 

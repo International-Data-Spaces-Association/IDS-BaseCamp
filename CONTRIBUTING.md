@@ -1,11 +1,11 @@
 # Contributing to the IDS Base Camp
 
-The following is a set of guidelines for contributing to the Dataspace Connector. You are very
+The following is a set of guidelines for contributing to the IDS Base Camp. You are very
 welcome to contribute to this project when you find a bug, want to suggest an improvement, or have
 an idea for a useful feature. For this, always create an issue and a corresponding branch, and
 follow our style guides as described below.
 
-Please note that we have a [code of conduct](CODE_OF_CONDUCT.md) that all developers should stick to.
+Please note that we have a [code of conduct](CODE_OF_CONDUCT.md) that all contributors should stick to.
 
 ## Changelog
 

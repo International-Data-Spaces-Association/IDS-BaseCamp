@@ -28,12 +28,22 @@ should at least include the following information:
 
 ## Labels
 
-The [labels](https://github.com/International-Data-Spaces-Association/DataspaceConnector/labels) are listed at the
-[issues](https://github.com/International-Data-Spaces-Association/DataspaceConnector/issues).
-There are three types of labels: the `type` describes the content of the issue, `scope` helps to
-specify the scope of the issue. The `open for contribution` label can be seen as an invitation to
-contribute to the project. Independent functionalities and improvements that will not be implemented
-by the core developer team are marked with it.
+The [labels](https://github.com/International-Data-Spaces-Association/IDS-BaseCamp/labels) are listed at the
+[issues](https://github.com/International-Data-Spaces-Association/IDS-BaseCamp/issues).
+There are two types of labels: one describes the content of the issue and should be used by the
+developer that creates the issue. The other one, starting with `status`, will be added from the
+developer that takes on the issue. New issues should be initially marked with `status:open`.
+
+*  Basic labels: `bug`, `enhancement`, `suggestion`, `documentation` `outdated`, `question`, `discussion`
+*  `status:closed`: issue is closed (after successful approval by issuer and QA)
+*  `status:duplicate`: issue is a duplicate of another linked issue and therefore discontinued
+*  `status:in-progress`: issue has been assigned and is currently being worked on
+*  `status:on-hold`: issue may be implemented at a later date
+*  `status:open`: issue has been submitted or re-opened recently
+*  `status:out-of-scope`: issue is considered out of the project's scope and therefore not further considered
+*  `status:resolved`: issue has been implemented and tested by a developer
+*  `status:wont-fix`: issue is in scope but considered impossible or too expensive to deal with
+
 
 ## Branches
 

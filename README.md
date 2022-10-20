@@ -1,15 +1,25 @@
 # The IDS Base Camp
-The IDS Base Camp is a combination of components to initiate a data space with just enough features to be usable for secure and sovereign data exchange, as specified by IDSA. 
-It aims to facilitate the work of experimenters by shortening the implementation time (by avoiding lengthy details that would slow down the first release). 
-This allows them to start with a first working version (where secure and sovereign data exchange is granted), where the development team can iterate, identify and respond to the assumptions about the requirements of the data space. 
+Similar to the Testbed the IDS-BaseCamp provides developers functioning components with just enough features to be usable for a secure and sovereign data exchange, yet its intended purpose is to enable developers to experiment with their own ideas and implement their visions, as out-of-pocket as they may be, in it, without any regard to the standardized specifications of the IDSA. 
+Contrary to the MVDS the Base Camp is not confined by the criteria to use the minimal working state, but not only can, but is supposed to develop and explore new branches and possibilities of a dataspace. 
 
-The MVDS is the unique solution provided by IDSA Head Office, as current best practice.
+The ISD-BaseCamp is the unique solution provided by IDSA Head Office, as current best practice.
+
+> **Warning**
+> Software / Hardware prerequisites needed here
+
+> **Warning**
+> Skill - Level needed here
+
+> **Warning**
+> Will the experiments in the BaseCamp be in the Deployment scenarios too? I think they should stay in the BaseCamp and maybe be opened as a seperate project if it'd come to that.
 
 The [IDS Deployment Scenarios](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios) act as best practices and sources of inspiration on building data spaces. There, you will find various examples of implementation, along with experiments also run with the IDS Base Camp.
 
 To find more information on implementing data spaces and a step-by-step classification of existing IDS documentation, you may check [How to Build Data Spaces?](https://github.com/International-Data-Spaces-Association/idsa/tree/main/how-to-build-data-spaces). 
 
-# What are the components that make the Base Camp?
+
+
+# What are the components that are provided in the IDS-BaseCamp?
 The Base Camp consists of: 
 1. Two or more IDS connectors  
 2. The [Certificate Authority (CA)](https://github.com/International-Data-Spaces-Association/IDS-testbed/tree/IDS-testbed-mvds/CertificateAuthority) granting X.509 certificates (not to be confused with certification)

@@ -27,7 +27,9 @@ The IDS-BaseCamp consists of:
 3. The [Dynamic Attributes Provisioning Service (DAPS)](https://github.com/International-Data-Spaces-Association/omejdn-daps) to handle dynamic attributes and manage dynamic access tokens
 4. [MetadataBroker](https://github.com/International-Data-Spaces-Association/metadata-broker-open-core) which is a registry for IDS Connector self-description documents.
 
-![IDS-BaseCamp](/pictures/IDS-BaseCamp_1.0.png)
+<p align="center">
+<img src="/pictures/IDS-BaseCamp_1.0.png">
+</p>
 
 [Certification](https://internationaldataspaces.org/use/certification/) of all components and the operational environments is an additional trust layer, since it ensures the functionality of components work in clearly specified boundaries.
 

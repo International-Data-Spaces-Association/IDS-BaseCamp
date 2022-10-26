@@ -22,6 +22,7 @@ the scope of your changes.
 **Bug Report**: As mentioned above, bug reports should be submitted as an issue. To give others
 the chance to reproduce the error in order to find a solution as quickly as possible, the report
 should at least include the following information:
+
 * Description: What did you expect and what happened instead?
 * Steps to reproduce (system specs included)
 * Relevant logs and/or media (optional): e.g. an image
@@ -50,6 +51,7 @@ provided GitHub feature. Contributions to the main branch will be squashed and m
 We encourage all contributors to stick to the commit convention following the specification on
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). In general, use  the
 imperative in the present tense. A quick overview of the schema:
+
 ```
 <type>[optional scope]: <description>
 [optional body]
@@ -65,5 +67,6 @@ An example of a very good commit might look like this: `feat![login]: add awesom
 commit! Therefore, the `resources/conf` directory is added to the `.gitignore`.**
 
 ## Versioning
+
 The Dataspace Connector uses the [SemVer](https://semver.org/) for versioning. The release versions
 are tagged with their respective version.

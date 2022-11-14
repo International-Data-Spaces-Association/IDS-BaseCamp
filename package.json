@@ -1,0 +1,70 @@
+{
+  "name": "ids-basecamp",
+  "version": "1.0.0",
+  "description": "Similar to the [Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed), the IDS-BaseCamp provides developers functioning components with just enough features to be usable for a secure and sovereign data exchange, yet its intended purpose is to enable developers to experiment with their own ideas and implement their visions, as out-of-pocket as they may be, in it, without any regard to the standardized specifications of the IDSA. This playground for ideas can be used before trying out a developers idea to the Testbed, in which it would have to adhere to certain guidelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/International-Data-Spaces-Association/IDS-BaseCamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/International-Data-Spaces-Association/IDS-BaseCamp/issues"
+  },
+  "homepage": "https://github.com/International-Data-Spaces-Association/IDS-BaseCamp#readme",
+  "release": {
+    "branches": [
+      "main",
+      "test"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "releaseRules": [
+            {
+              "type": "docs",
+              "scope": "README",
+              "release": "patch"
+            },
+            {
+              "type": "refactor",
+              "release": "patch"
+            },
+            {
+              "type": "add",
+              "release": "patch"
+            }
+          ],
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES"
+            ]
+          }
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "semantic-release": "^19.0.5"
+  }
+}

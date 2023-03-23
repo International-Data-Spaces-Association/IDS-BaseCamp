@@ -205,7 +205,7 @@ Kubernetes
 
 Neuropil is an overlay network (a logical network) that is built on top of an existing physical network (Internet). A separate address space with its own addressing, as well as with the use of its own path selection methods is used (independent of the underlay). Neuropil is used to build an additional logical topology for the distribution of essential services, which are therefore decentralized. In addition, Neuropil results in a resource-saving and effective structure, which enables fast communication on IoT devices. In this logical network, the physical network addresses of nodes are mapped to randomly selected virtual addresses. This virtual address space is large enough that most of it is never used, and address collisions are virtually impossible. The Neuropil protocol is aligned by the architecture according to IDS.
 
-![Shape5](pictures/5.png)
+![](pictures/9.png)
 
 **Explanation**** :**
 **Functionality of the Broker**

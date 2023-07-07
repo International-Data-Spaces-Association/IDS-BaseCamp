@@ -8,7 +8,7 @@ Data Spaces built according to the IDSA specifications are growing in numbers an
 
 The goal is to enable developers, testbeds and productive systems to be able to work on a common basis and leverage the power of many to constantly improve the code set whilst maintaining the highest level of interoperability. At the same time the efforts of project teams can shift from setup and integration of basic services towards the value of creating use cases.  
 
-IDSA assumes the role of GitHub Maintainer of the repository to ensure contributions by the committers are aligned with the IDSA reference architecture and specifications; V 1.0 of the basecamp consists of the following IDS based infrastructure components: CA, DAPS, ParIS, Metadata Broker, Transaction Log (Clearing House). V2.0 will add App Store and Vocabulary Provider. 
+Version 1.0 of the basecamp consists of the following IDS based infrastructure components: CA, DAPS, ParIS, Metadata Broker, Transaction Log (Clearing House). V2.0 will add App Store and Vocabulary Provider. 
 
 
 

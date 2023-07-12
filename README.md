@@ -98,7 +98,7 @@ Approach 
 
 Data sovereignty, traceability and anchors of trust.
 
-## 1.1 Basics for understanding the implementation of the IDSA** **Standard:** 
+## 1.1 Basics for understanding the implementation of the IDSA Standard: 
 
 Would you feel safe on public roads at home or abroad without traffic signs and license plates?
 

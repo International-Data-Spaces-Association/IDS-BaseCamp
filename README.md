@@ -199,8 +199,21 @@ W3C (verified credentials)
 
 Kubernetes
 
-…
-# 7. Short description of Neuropil for Connectors, DAPS and Broker:
+# 7. List of Components Used in the Implementation:
+| Component	| Provider | Version	|  Repository/URL 	|  Current Status	|
+|---	|---	|---	|---	|---	|
+| Connector |   	|   	|   	|   	|
+| Certificate Authority |   	|   	|   	|   	|
+| DAPS (Identity Provider) |  Truzzt DAPS 	|   	|   	|   	|
+| ParIS (Identity Provider) | iShare Satellite   	|   	|   	|   	|
+| Metadata Broker |  Truzzt MetaData Broker	|   	|   	|   	|
+| Metadata Broker (UI) |   	|   	|   	|   	|
+| Clearing House | Truzzt Clearing House |   	|   	|   	|
+| App Store |   	|   	|   	|   	|
+| Vocabulary Hub |   	|   	|   	|   	|
+| Eclipse XFSC​ |   	|   	|   	|   	|
+
+# 8. Short description of Neuropil for Connectors, DAPS and Broker:
 
 Neuropil is an overlay network (a logical network) that is built on top of an existing physical network (Internet). A separate address space with its own addressing, as well as with the use of its own path selection methods is used (independent of the underlay). Neuropil is used to build an additional logical topology for the distribution of essential services, which are therefore decentralized. In addition, Neuropil results in a resource-saving and effective structure, which enables fast communication on IoT devices. In this logical network, the physical network addresses of nodes are mapped to randomly selected virtual addresses. This virtual address space is large enough that most of it is never used, and address collisions are virtually impossible. The Neuropil protocol is aligned by the architecture according to IDS.
 
@@ -217,7 +230,7 @@ Functionality of the Broker**
 
 
 
-# 8. Brief description of Open Source Intel® SGX Technology
+# 9. Brief description of Open Source Intel® SGX Technology
 
 For application and solution developers, new hardware-based controls for cloud and enterprise environments provide excellent opportunities to ensure high data security. Intel® Software Guard Extensions (Intel® SGX)1 2 provide hardware-based encryption of memory contents that isolates specific program code and data in memory. With Intel® SGX, application code can consume its own areas of memory, known as enclaves, that are protected from processes running at a higher privilege level. Only Intel® SGX offers this level of control and protection. (<https://www.intel.de/content/www/de/de/architecture-and-technology/software-guard-extensions.html>). 
 
@@ -225,10 +238,10 @@ Intel® SGX helps protect against many known and active threats. They form an ad
 
 The combination of Intel® SGX's enhanced security and verification capabilities, along with Intel's continued collaboration with a broad ecosystem of security companies, helps minimize the potential attack surface and even reduce theoretical risks.
 
-# 9. The basis for IDSA-based data rooms:
+# 10. The basis for IDSA-based data rooms:
 
 A virtual machine/container with IDSA Connector (Data Space) as a Service and Essential Services to ensure data sovereignty, traceability and anchors of trust.
-# 10. Data rooms as data ecosystems using IDSA Connectors and Essential Services:
+# 11. Data rooms as data ecosystems using IDSA Connectors and Essential Services:
 
 ![](pictures/7.png)
 

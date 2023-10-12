@@ -10,7 +10,7 @@ The goal is to enable developers, testbeds and productive systems to be able to 
 
 IDSA assumes the role of GitHub Maintainer of the repository to ensure contributions by the committers are aligned with the IDSA reference architecture and specifications; V 1.0 of the basecamp consists of the following IDS based infrastructure components: CA, DAPS, ParIS, Metadata Broker, Transaction Log (Clearing House). V2.0 will add App Store and Vocabulary Provider. 
 
-
+(Klaus)
 
 
 
@@ -20,6 +20,16 @@ IDSA assumes the role of GitHub Maintainer of the repository to ensure contribut
 The basecamp will use OSS, which has been accepted by commercial operators after validation towards security, scalability and maintainability requirements and is used in productive environments. It does not contain any proprietary elements and is available to all parties which are willing to contribute.  
 
 It is open to be extended with additional components and services (like onboarding workflows, integration with ID or certificate providers, testbeds, different type of connectors). 
+
+eine Distribution, die basierend auf Ram 4.0, EDC MS 0.8 die folgenden Komponenten integriert zur Verfügung stellt:
+
+1. How to get started (truzzt Port umbenennen)
+2. Verweis auf die Repositories
+
+
+**Road Map:** 
+
+Die Erweiterung auf Ram 5.0 ist in der Planungsphase. 
 
 
 
@@ -31,7 +41,6 @@ It is open to be extended with additional components and services (like onboardi
 - Supporter: André Nemat, Lars Nagel, Sebastian Steinbuss, Christoph Mertens  
 - Start: March 23, 2023 
 - End: August 31, 2023 
-
 
 
 Approach 

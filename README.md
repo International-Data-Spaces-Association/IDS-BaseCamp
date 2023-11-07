@@ -25,16 +25,9 @@ CA, DAPS, ParIS, Metadata Broker, Transaction Log (Clearing House)
 2. Core Repository 
 
 3. Useful Extensions
-- SGX...
-
-
-Roadmap: "v Next"
-* Extension to Vocabulary Provider, App Store
-* Once RAM 5 and the protocol specs are finalized we will start planning for the next release
-
-
-
-# <a name="_toc120026359"></a>**8. Brief description of Open Source Intel® SGX Technology**
+- SGX:
+  
+# <a name="_toc120026359"></a>**Brief description of Open Source Intel® SGX Technology**
 
 For application and solution developers, new hardware-based controls for cloud and enterprise environments provide excellent opportunities to ensure high data security. Intel® Software Guard Extensions (Intel® SGX)1 2 provide hardware-based encryption of memory contents that isolates specific program code and data in memory. With Intel® SGX, application code can consume its own areas of memory, known as enclaves, that are protected from processes running at a higher privilege level. Only Intel® SGX offers this level of control and protection. (<https://www.intel.de/content/www/de/de/architecture-and-technology/software-guard-extensions.html>). 
 
@@ -43,5 +36,6 @@ Intel® SGX helps protect against many known and active threats. They form an ad
 The combination of Intel® SGX's enhanced security and verification capabilities, along with Intel's continued collaboration with a broad ecosystem of security companies, helps minimize the potential attack surface and even reduce theoretical risks.
 
 
-
-
+Roadmap: "v Next"
+* Extension to Vocabulary Provider, App Store
+* Once RAM 5 and the protocol specs are finalized we will start planning for the next release

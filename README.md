@@ -20,10 +20,14 @@ It consists of the following IDS based infrastructure components:
 CA, DAPS, ParIS, Metadata Broker, Transaction Log (Clearing House)
 
 
-1. How to get started (truzzt Port umbenennen)
+1. How to get started:
+  - https://github.com/truzzt/truzztport
 
-2. Core Repository 
+2. Core Repository
+  - Broker: https://github.com/truzzt/ids-basecamp-broker
+  - Clearinghouse: https://github.com/truzzt/ids-basecamp-clearinghouse
+  - DAPS: https://github.com/truzzt/ids-basecamp-daps
 
 3. Useful Extensions
-- SGX:
+  - Portal: https://github.com/truzzt/ids-basecamp-portal
   

@@ -7,7 +7,42 @@ The IDS basecamp is a software distribution of components to build and operate a
 
 The goal is to enable developers, testbeds and productive systems to be able to work on a common basis and leverage the power of many to constantly improve the code set whilst maintaining the highest level of interoperability. At the same time the efforts of project teams can shift from setup and integration of basic services towards the value of creating use cases. It includes experiences from commercial operators with validated security, scalability and maintainability requirements and is used in productive environments. It does not contain any proprietary elements and the project is available to all parties willing to contribute. It can be extended with additional components and services (like onboarding workflows, integration with ID or certificate providers, testbeds, different type of connectors). 
 
+
 The general approach in building a distribution is a community process following the schema: 
+=======
+Data Spaces built according to the IDSA specifications are growing in numbers and complexity. The Basecamp initiative is working towards the creation of an integrated and tested set of OSS components which can be used in pilot as well as in productive environments, leveraging the experience and from contributions of projects in all stages of the lifecycle. 
+
+The goal is to enable developers, testbeds and productive systems to be able to work on a common basis and leverage the power of many to constantly improve the code set whilst maintaining the highest level of interoperability. At the same time the efforts of project teams can shift from setup and integration of basic services towards the value of creating use cases.  
+
+Version 1.0 of the basecamp consists of the following IDS based infrastructure components: CA, DAPS, ParIS, Metadata Broker, Transaction Log (Clearing House). V2.0 will add App Store and Vocabulary Provider. 
+
+
+
+
+
+
+**What does the Base Camp offer?** 
+
+The basecamp will use OSS, which has been accepted by commercial operators after validation towards security, scalability and maintainability requirements and is used in productive environments. It does not contain any proprietary elements and is available to all parties which are willing to contribute.  
+
+It is open to be extended with additional components and services (like onboarding workflows, integration with ID or certificate providers, testbeds, different type of connectors). 
+
+
+
+**Genesis: Project Launch Coalition II Base Camp** 
+
+- Mission Statement: 
+- Set-up an open source V1 for all IDS based infrastructure components to enable external stakeholder to set up data spaces on a reliable base 
+- Team: Klaus Ottradovetz, Rainer Sträter, Hannes Bauer 
+- Supporter: André Nemat, Lars Nagel, Sebastian Steinbuss, Christoph Mertens  
+- Start: March 23, 2023 
+- End: August 31, 2023 
+
+
+
+Approach 
+
+
 - intensive research with the community on available software assets  
 - improvement of the code base towards a production grade technical readiness level 
 - packaging towards an integrated distribution  
